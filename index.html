@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DevCairn Labs</title>
+  <meta name="description" content="DevCairn Labs builds practical developer tools for JetBrains IDEs.">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0f1115;
+      --card: #171a21;
+      --text: #f4f6f8;
+      --muted: #aeb6c2;
+      --accent: #7aa2ff;
+      --border: #2a3040;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 72px 24px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2.2rem, 6vw, 4rem);
+      letter-spacing: -0.04em;
+    }
+    .tagline {
+      margin: 0 0 40px;
+      color: var(--muted);
+      font-size: 1.15rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+    h2 { margin-top: 0; }
+    a { color: var(--accent); }
+    .meta {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>DevCairn Labs</h1>
+    <p class="tagline">Practical developer tools for JetBrains IDEs.</p>
+
+    <section class="card">
+      <h2>LogQuarry</h2>
+      <p>
+        A large log viewer for Serilog, JSON, Logback and other common log formats,
+        designed for fast inspection directly inside JetBrains IDEs.
+      </p>
+      <p>
+        <a href="https://plugins.jetbrains.com/vendor/devcairn">View DevCairn Labs on JetBrains Marketplace</a>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Support</h2>
+      <p>
+        Questions or support requests:
+        <a href="mailto:devcairnlabs@gmail.com">devcairnlabs@gmail.com</a>
+      </p>
+    </section>
+
+    <p class="meta">© 2026 DevCairn Labs</p>
+  </main>
+</body>
+</html>
